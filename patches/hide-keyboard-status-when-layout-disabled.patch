@@ -1,0 +1,14 @@
+--- a/helpers/auth_x11.c
++++ b/helpers/auth_x11.c
+@@ -391,6 +391,11 @@
+   if (!have_xkb_ext) {
+     return "";
+   }
++  if (!show_keyboard_layout) {
++    *warning = 0;
++    *have_multiple_layouts = 0;
++    return "";
++  }
+ 
+   XkbDescPtr xkb;
+   xkb = XkbGetMap(display, 0, XkbUseCoreKbd);
