@@ -14,8 +14,7 @@ Even with the option disabled, the auth prompt can still show text such as:
 - Group 2
 - keyboard switching hints
 
-Related archived upstream issue: google/xsecurelock#163  
-https://github.com/google/xsecurelock/issues/163
+Related archived upstream issue: google/xsecurelock#163
 
 The upstream repository is archived/read-only, so this repo documents the local workaround.
 
